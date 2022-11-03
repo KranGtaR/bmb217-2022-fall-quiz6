@@ -29,7 +29,7 @@ class Service:
         "triger":1250,
     }
 
-    def __init__(self, plate_no:str, name_surname:str, work_list:list[str]) -> None:
+    def __init__(self, plate_no:str, name_surname:str, work_list:list[]) -> None:
         """Service constructor
 
         Args:
